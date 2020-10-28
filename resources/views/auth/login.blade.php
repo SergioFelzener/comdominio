@@ -44,5 +44,8 @@
                 </x-jet-button>
             </div>
         </form>
+        <div>
+            <a href="{{route('social.login', ['provider' => 'github'])}}">Login Github</a>
+        </div>
     </x-jet-authentication-card>
 </x-guest-layout>
