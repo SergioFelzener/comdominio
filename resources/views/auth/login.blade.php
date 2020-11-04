@@ -17,20 +17,27 @@
                     <div class="my-4 max-w-sm text-center">
                         <h2 class="my-2 font-bold">Login com Social Media</h2>
                         <a href="{{route('social.login', ['provider' => 'github'])}}" class="p-2 flex justify-center font-bold border-solid border-2 border-gray-600 mr-auto ml-auto bg-gray-300 rounded-2xl shadow-2xl text-black hover:bg-gray-100">
-                        <img class="w-12 h-12 mr-4" src="{{asset('assets/img/gitlogo.png')}}">
-                            <label class="text-bold mt-3"for="">GitHub Login</label>
+                            <img class="w-12 h-12 mr-4" src="{{asset('assets/img/gitlogo.png')}}">
+                            <label class="text-bold mt-3" for="">GitHub Login</label>
                         </a>
                     </div>
                     <div class="my-4 max-w-sm text-center">
                         <a href="{{route('social.login', ['provider' => 'facebook'])}}" class="p-2 flex justify-center font-bold border-solid border-2 border-gray-600 mr-auto ml-auto bg-blue-500 rounded-2xl shadow-2xl text-black hover:bg-blue-200">
-                        <img class="w-12 h-12 mr-4" src="{{asset('assets/img/face.png')}}">
-                            <label class="text-bold mt-3 text-white"for="">Facebook Login</label>
+                            <img class="w-12 h-12 mr-4" src="{{asset('assets/img/face.png')}}">
+                            <label class="text-bold mt-3 text-white" for="">Facebook Login</label>
+                        </a>
+                    </div>
+
+                    <div class="my-4 max-w-sm text-center">
+                        <a href="{{route('social.login', ['provider' => 'twitter'])}}" class="p-2 flex justify-center font-bold border-solid border-2 border-gray-600 mr-auto ml-auto bg-blue-500 rounded-2xl shadow-2xl text-black hover:bg-blue-200">
+                            <img class="w-12 h-12 mr-4" src="{{asset('assets/img/face.png')}}">
+                            <label class="text-bold mt-3 text-white" for="">Twitter</label>
                         </a>
                     </div>
                     <p class="flex justify-center  text-red-500 text-xs">
                         Não tem uma conta,&nbsp; <a href="#" class="justify-center text-black-700 font-bold">Crie sua conta </a> &nbsp; agora.
                     </p>
-                    
+
             </form>
         </div>
 
