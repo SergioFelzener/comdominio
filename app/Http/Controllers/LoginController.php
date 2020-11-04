@@ -22,7 +22,7 @@ class LoginController extends Controller
     public function handleProviderCallback($provider)
     {
         //dd(Socialite::driver($provider));
-        $userProvider = Socialite::driver($provider)->stateless()->user();
+        $userProvider = Socialite::driver($provider)->user();
         //dd($user);
 
         $user = User::firstOrCreate(
