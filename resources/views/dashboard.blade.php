@@ -16,6 +16,10 @@
                             <h4 class="text-xl text-gray-900">Noticias do dia</h4>
                         </div>
                     </div>
+
+                    @foreach($new as $n)
+                    <span name="news" class="block text-gray-500 tx-sm" value="">{{$n->title}}</span>
+                    @endforeach
                     <div class="container mt-5 mx-auto px-2">
                         <div class="md:flex">
                             <div class="flex-1 text-gray-700 text-center bg-gray-400 px-5 py-5 m-2 rounded">
