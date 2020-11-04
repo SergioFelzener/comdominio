@@ -29,9 +29,9 @@
                     </div>
 
                     <div class="my-4 max-w-sm text-center">
-                        <a href="{{route('social.login', ['provider' => 'twitter'])}}" class="p-2 flex justify-center font-bold border-solid border-2 border-gray-600 mr-auto ml-auto bg-blue-500 rounded-2xl shadow-2xl text-black hover:bg-blue-200">
-                            <img class="w-12 h-12 mr-4" src="{{asset('assets/img/face.png')}}">
-                            <label class="text-bold mt-3 text-white" for="">Twitter</label>
+                        <a href="{{route('social.login', ['provider' => 'twitter'])}}" class="p-2 flex justify-center font-bold border-solid border-2 border-gray-600 mr-auto ml-auto bg-white-500 rounded-2xl shadow-2xl text-black hover:bg-blue-200">
+                            <img class="w-12 h-12 mr-6" src="{{asset('assets/img/twitter.png')}}">
+                            <label class="text-bold mt-2 mr-7" for="">Twitter</label>
                         </a>
                     </div>
                     <p class="flex justify-center  text-red-500 text-xs">
