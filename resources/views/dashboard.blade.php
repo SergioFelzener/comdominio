@@ -19,7 +19,9 @@
                         </div>
                     </div>
 
-                    <!-- CARD COLUMNS -->
+                    @foreach($new as $n)
+                    <span name="news" class="block text-gray-500 tx-sm" value="">{{$n->title}}</span>
+                    @endforeach
                     <div class="container mt-5 mx-auto px-2">
                         <!-- Flex on med screens and up -->
                         <div class="md:flex">
